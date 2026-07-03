@@ -32,6 +32,8 @@ Model Accuracy:
 
 The model was trained on the dataset after preprocessing and evaluated using a train-test split, achieving an accuracy of 75%.
 
+After standardizing the features, the absolute logistic regression coefficients were normalized to estimate relative feature contributions. Aptitude Test Score emerged as the most influential predictor (31.69%), followed by Projects (20.19%), Extracurricular Activities (18.13%), Soft Skills Rating (16.54%), and CGPA (13.06%). Internships had the least impact (0.39%), indicating limited predictive value in this dataset.
+
 
 
 🛠 Technologies Used
